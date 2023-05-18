@@ -1,0 +1,242 @@
+@font-face {
+    font-family: sander;
+    src: url(fonts/SandeMoreDemo-SemiBoldItalic.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: pink;
+}
+.fondo{
+    color: #e52555;
+}
+header{
+    background-color: palevioletred;
+    height: 80px;
+    width: 100%;
+    
+    color: #f5f1f4;
+    padding: 20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    
+
+}
+.logo span{
+    color:  rgb(166, 12, 63);
+}
+.barra{
+    float: right ;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    color: #f5ecf2;
+    text-decoration: none;
+}
+.barra a:hover{
+    color: rgb(166, 12, 63)
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    background-image: url(image/fist-3217339_640.png);
+
+    background-size: contain;
+    background-position: bottom;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+    
+}
+.call{
+    color: rgb(20, 19, 20);
+    
+    width: 60% ;
+    background-color:palevioletred;
+    border: 3px solid #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+float: right;
+margin: 30px;
+padding: 30px;
+}
+h1{
+    color: white;
+
+   
+
+    margin-bottom: 20px;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a{
+    background-color: palevioletred;
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+
+    padding: 10px 20px;
+    border: 1px solid pink;
+}
+.call a:hover{
+    background-color:  rgb(166, 12, 63);
+    
+}
+h2.sec{
+    text-align: center;
+    background-color: rgb(190, 54, 77);
+    color:  rgb(248, 243, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.cont{
+    height: 700px;
+    width: 100%;
+    background-color: pink;
+}
+.item{
+    height: 120px;
+    width: 120px;
+    background-color: palevioletred ;
+    color: black;
+    text-align: center;
+    line-height: 120px;
+    border: 2px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(image/happy-woman-is-carrying-box-and-smiling-lady-purc-2022-07-22-17-30-50-utc.jfif);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(image/woman-working-at-office-2022-02-02-03-57-21-utc.jpg);
+    background-size: cover;
+    background-position: right;
+
+    
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(image/beautiful-focused-woman-working-with-papers-and-la-2022-02-01-22-37-47-utc+\(1\).jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.cont4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(image/mature-businesswomen-giving-presentation-to-collea-2021-08-29-05-50-09-utc.jpg);
+}
+
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(245, 237, 239);
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.redes{
+    color: blueviolet;
+    letter-spacing: 20px;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-family: 25px;
+    text-align: center;
+    background-color: rgb(226, 43, 141);
+    color: #fff;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 3px solid black;
+
+}
+.dos{
+   font-size: smaller;
+
+}
+.cont5{
+    height: 420px;
+    width: 400px;
+    
+   
+    background-size: contain;
+    
+    color: #f6efef;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    border: 3px solid rgb(166, 12, 63);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid rgb(166, 12, 63)
+    
+     
+    
+}
+section{
+    background-color: pink;
+}
+.info{
+    
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+
+    padding: 10px 20px;
+    border: 1px solid rgb(252, 246, 247);
+}

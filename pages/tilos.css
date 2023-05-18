@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: pink;
+}
+.fondo{
+    color: #e52555;
+    
+}
+header{
+    background-color: palevioletred;
+    height: 80px;
+    width: 100%;
+    
+    color: #f5f1f4;
+    padding: 20px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    float: left;
+    font-weight: bold;
+    
+
+}
+.logo span{
+    color:  rgb(166, 12, 63);
+}
+.barra{
+    float: right ;
+}
+.barra li{
+    list-style: none;
+    display: inline-block;
+}
+.barra a{
+    color: #f5ecf2;
+    text-decoration: none;
+}
+.barra a:hover{
+    color: rgb(166, 12, 63)
+}
+.foto{
+    background-image: url(pagina/beautiful-focused-woman-working-with-papers-and-la-2022-02-01-22-37-47-utc+\(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h2.sec{
+    text-align: center;
+    background-color: rgb(190, 54, 77);
+    color:  rgb(18, 18, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.titulo{
+    text-align: center;
+    background-color: pink;
+    color: #e52555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+   padding: 10px;
+
+}
+
+
+.cont5{
+    text-align: right;
+    color: rgb(20, 19, 20);
+    height: ;
+    width: 100% ;
+    background-color:palevioletred;
+    border: 3px solid #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(15, 14, 14);
+    float: center;
+    font-size: 80px;
+    padding: 40px;
+font-size: 20px;  
+background-image: url(pagina/beautiful-focused-woman-working-with-papers-and-la-2022-02-01-22-37-47-utc+\(1\).jpg);  
+background-size: contain;
+background-repeat: no-repeat;
+    
+}
+.cont4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(19, 18, 18);
+    float: center;
+    font-size: 80px;
+    padding: 40px;
+font-size: 20px; 
+
+} 
+
+.subir{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-family: 25px;
+    text-align: center;
+    background-color: rgb(226, 43, 141);
+    color: #fff;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 3px solid black;
+} 
+   
+   
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(245, 237, 239);
+    padding: 20px;
+    position: bottom;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.redes{
+    color: blueviolet;
+    letter-spacing: 20px;
+}
